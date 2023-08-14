@@ -1,5 +1,9 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <Windows.h>
 #include <GL/glut.h>
-#include<iostream>
+
 using namespace std;
 int rx = 100, ry = 125;
 int xCenter = 250, yCenter = 250;
@@ -90,9 +94,10 @@ int main(int argc, char** argv)
 	glutInit(&argc, argv);
 	glutInitWindowSize(640, 480);
 	glutInitWindowPosition(10, 10);
-	glutCreateWindow("User_Name");
+	glutCreateWindow("Lab 1");
 	myinit();
 	glutDisplayFunc(display);
+	PlaySoundW(L"music.wav", NULL, SND_ASYNC | SND_FILENAME | SND_LOOP); // To play music
 	glutMainLoop();
 	return 0;
 }
