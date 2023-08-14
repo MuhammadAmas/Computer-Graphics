@@ -1,13 +1,5 @@
-# Ignore Visual Studio files
+# Visual Studio temporary files
 *.vs
-*.vcxproj
-*.vcxproj.filters
-*.sln
-*.vcxproj.user
-*.vcproj
-*.vcxitems
-*.vsprops
-*.dbmdl
 ipch/
 *.sdf
 *.opensdf
@@ -18,6 +10,18 @@ ipch/
 *.tlog/
 *.tlog
 *.lastbuildstate
+
+# Visual Studio project files
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.vcxproj.user
+*.vcproj
+*.vcxitems
+*.vsprops
+*.dbmdl
+
+# Compiled binary files
 Debug/
 Release/
 x64/
@@ -34,17 +38,13 @@ obj/
 *.pgc
 *.pgd
 *.rsp
-*.pch
 *.res
 *.idb
-*.pdb
 *.ipch/
 *.iobj/
-*.pdb
-*.ipdb
-*.ilk
+
+# Miscellaneous
 *.msm
-*.ilk
 *.aps
 *.sbr
 *.scc
@@ -53,30 +53,16 @@ obj/
 [Rr]elease*/
 *_i.c
 *_p.c
-*.ilk
-*.meta
-*.obj
-*.pch
-*.pdb
-*.pgc
-*.pgd
-*.rsp
-*.sbr
-*.tlb
-*.tli
+*.ncb
 *.tlh
-*.tmp
-*.tmp_proj
-*.log
+*.pdm
+*.svclog
+*.sln.docstates
+
+# Visual Studio version-specific auto-generated files
 *.vspscc
 *.vssscc
 *_i.c
 *_p.c
-*.ncb
-*.suo
-*.tlh
-*.obj
-*.tlb
-*.pdm
-*.svclog
-*.sln.docstates
+*.tmp
+*.tmp_proj
