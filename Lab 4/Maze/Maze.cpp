@@ -5,9 +5,9 @@
 #include <ctime>
 #include <stack>
 
-const int ROWS = 40;
-const int COLS = 40;
-const int CELL_SIZE = 40;
+const int ROWS = 20;
+const int COLS = 30;
+const int CELL_SIZE = 50;
 
 struct Cell {
     bool visited;
@@ -154,11 +154,11 @@ int main(int argc, char** argv) {
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(COLS * CELL_SIZE, ROWS * CELL_SIZE);
-    glutCreateWindow("Maze Generator");
+    glutCreateWindow("My Maze Generator");
     glutDisplayFunc(drawMaze);
     glutReshapeFunc(reshape);
 
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClearColor(0.0f, 0.0f, 1.0f, 0.0f);
 
     glutMainLoop();
 
