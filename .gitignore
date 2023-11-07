@@ -58,7 +58,6 @@ obj/
 *.pdm
 *.svclog
 *.sln.docstates
-Mario Escape Game/
 
 # Visual Studio version-specific auto-generated files
 *.vspscc
